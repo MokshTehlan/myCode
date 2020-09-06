@@ -8,6 +8,6 @@ class KilometerConverter {
         System.out.println("Enter the kilometers here:- ");
         float kilo = km.nextFloat();
         double miles = kilo*(0.621371);
-        System.out.println("Total Miles in "+kilo+" Kilometers are:- "+ miles);
+        System.out.println("Total Miles in "+kilo+" Kilometers are:- "+ miles+ " miles");
     }
 }
