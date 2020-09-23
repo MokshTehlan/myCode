@@ -8,7 +8,7 @@ public class stone_paper_scissor {
         Random ran = new Random();
         int rnum = ran.nextInt(3);
 
-        System.out.println("RULES OF THE GAME:-\n1. PRESS \"1\" FOR STONE, PRESS \"2\" FOR PAPER AND PRESS \"3\" FOR SCISSOR\n2. YOU HAVE ONLY 5 MOVES");
+        System.out.println("RULES OF THE GAME:-\n1. PRESS \"1\" FOR STONE, PRESS \"2\" FOR PAPER AND PRESS \"3\" FOR SCISSOR\n2. YOU HAVE ONLY 6 MOVES");
 
         String[] utilities = {"STONE", "PAPER", "SCISSOR"};
         String cc = utilities[rnum];
